@@ -59,7 +59,7 @@ def send_message():
 
 
 def generate_openai_response(prompt):
-    openai.api_key = "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"
+    openai.api_key = "use openai api key"
     model_engine = "text-davinci-003"
 
     completion = openai.Completion.create(
