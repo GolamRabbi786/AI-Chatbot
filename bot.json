@@ -1,0 +1,129 @@
+[
+  {
+    "response_type": "greeting",
+    "user_input": ["hello", "hey", "hi", "good day", "Greetings", "what's up?", "how is it going?"],
+    "bot_response":  ["Hello!", "Hey!", "What can I do for you?"],
+    "required_words": []
+  },
+  {
+    "response_type": "greeting",
+    "user_input": ["nice", "to", "meet", "you"],
+    "bot_response": "The pleasure is all mine!",
+    "required_words": ["nice", "meet", "you"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["how", "to", "learn", "code", "coding", "apps"],
+    "bot_response": "Start by typing: 'How to learn coding' on Google.",
+    "required_words": ["learn", "code"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["refund", "how", "can", "I", "get"],
+    "bot_response": "We don't offer refunds for free education.",
+    "required_words": ["refund", "i"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["how", "are", "you"],
+    "bot_response": "I'm great! Thanks for asking.",
+    "required_words": ["how", "are", "you"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["who", "are", "you"],
+    "bot_response": "I'm Ai Based Chatbot!",
+    "required_words": ["who", "are", "you"]
+  },
+  {
+    "response_type": "information",
+    "user_input": ["Information","about", "Green", "University", "of", "Bangladesh"],
+    "bot_response": "Green University of Bangladesh is a renowned private university located in Dhaka, Bangladesh. It offers a wide range of undergraduate and postgraduate programs in various disciplines including Business Administration, Computer Science, Electrical and Electronic Engineering, English, Economics, and many more. The university is committed to providing quality education, fostering research and innovation, and preparing students to become skilled professionals in their respective fields. It has a state-of-the-art campus with modern facilities and a dedicated faculty team. To know more, you can visit the official website of Green University of Bangladesh.",
+    "required_words": ["Information","green", "university", "bangladesh"]
+  },
+
+  {
+    "response_type": "course",
+    "user_input": ["courses"],
+    "bot_response": "Green University of Bangladesh offers a diverse range of courses across various disciplines.\nSome of the popular courses include Bachelor of: \nBusiness Administration (BBA), \nBachelor of Science in Computer Science, \nBachelor of Arts in English, \nBachelor of Science in Electrical and Electronic Engineering, \nBachelor of Social Science in Economics, and many more. \nThe university ensures that the courses are designed to meet industry demands and provide students with the necessary skills and knowledge for their chosen career paths.",
+    "required_words": ["courses"]
+  },
+  {
+    "response_type": "course_duration",
+    "user_input": ["course", "duration"],
+    "bot_response": "The duration of courses at the Green University of Bangladesh varies depending on the program. It can range from 3 to 4 years for undergraduate programs.",
+    "required_words": ["course", "duration"]
+  },
+  {
+    "response_type": "locations",
+    "user_input": ["green", "university","location"],
+    "bot_response": "The Green University of Bangladesh is located in Dhaka, the capital city of Bangladesh.",
+    "required_words": ["location"]
+  },
+  {
+    "response_type": "semester",
+    "user_input": ["semesters"],
+    "bot_response": "The Green University of Bangladesh follows a semester system.",
+    "required_words": ["semesters"]
+  },
+  {
+    "response_type": "semester_duration",
+    "user_input": ["semester", "duration"],
+    "bot_response": "Each semester at the Green University of Bangladesh lasts for around 4 months.",
+    "required_words": ["semester", "duration"]
+  },
+  {
+    "response_type": "student_requirements",
+    "user_input": ["student", "requirements"],
+    "bot_response": "To be eligible for admission to the Green University of Bangladesh, students must meet certain academic criteria and pass the admission test.",
+    "required_words": ["student", "requirements"]
+  },
+  {
+    "response_type": "classes",
+    "user_input": ["classes"],
+    "bot_response": "The classes at the Green University of Bangladesh are conducted on weekdays.",
+    "required_words": ["classes"]
+  },
+  {
+    "response_type": "teach_style",
+    "user_input": ["teaching", "style"],
+    "bot_response": "The teaching style at the Green University of Bangladesh focuses on a combination of theoretical knowledge and practical application.",
+    "required_words": ["teaching", "style"]
+  },
+  {
+    "response_type": "examination",
+    "user_input": ["exams"],
+    "bot_response": "The Green University of Bangladesh conducts regular exams to assess the students' progress and understanding of the subjects.",
+    "required_words": ["exams"]
+  },
+  {
+    "response_type": "class_hours",
+    "user_input": ["hours"],
+    "bot_response": "The number of class hours per week at the Green University of Bangladesh varies depending on the program and course load.",
+    "required_words": ["hours"]
+  },
+  {
+    "response_type": "university_question",
+    "user_input": ["fun", "activities"],
+    "bot_response": "The Green University of Bangladesh organizes various fun activities and events throughout the year to promote student engagement and recreation.",
+    "required_words": ["fun", "activities"]
+  },
+  {
+    "response_type": "facility",
+    "user_input": ["facilities"],
+    "bot_response": "The Green University of Bangladesh provides modern facilities including well-equipped classrooms, laboratories, library, sports facilities, and student common areas.",
+    "required_words": ["facilities"]
+  },
+  {
+    "response_type": "fees",
+    "user_input": ["fee"],
+    "bot_response": "The tuition fees at Green University of Bangladesh may vary depending on the program and level of study.\nAdmission Fee: Tk. 20,000/-\nBSc in EEE: Tk. 5,28,500/-\nBSc in CSE: Tk. 6,58,100/-\nBSc in Textile: Tk. 5,07,050/-\nBBA: Tk. 5,30,500/-\nLL.B (Hons): Tk. 6,56,500/-\nBA (Hons) in JMC: Tk. 4,06,700/-\nBA (Hons) in English: Tk. 4,20,800/-\nBSS (Hons) in Sociology: Tk. 2,85,500/-.",
+    "required_words": ["fee"]
+  },
+    {
+  "response_type": "thanks",
+  "user_input": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+  "bot_response": ["Happy to help!", "Any time!", "My pleasure"],
+  "required_words": []
+  }
+]
